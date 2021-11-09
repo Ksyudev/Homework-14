@@ -37,13 +37,13 @@
 }
 }
 @media only screen and (min-width: 1600px) {
-.aboutWrapper, .blogWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .testimonialWrapper {
+.aboutWrapper, .languageWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .hobbiesWrapper {
     margin-left: 30%;
     width: 70%;
 }
 }
 @media only screen and (min-width: 1920px) {
-.aboutWrapper, .blogWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .testimonialWrapper {
+.aboutWrapper, .languageWrapper, .contactWrapper, .footer-background, .portfolioWrapper, .resumeWrapper, .servicesWrapper, .hobbiesWrapper {
     margin-left: 35%;
     width: 65%;
 }
