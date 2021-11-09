@@ -426,17 +426,18 @@ button.mfp-close:hover {
 .language-background {
     padding: 100px 0 0;
 }
-
+.languageWrapper {
+    padding: 0;
+}
 .resume-box >.hobbies-box {
     padding-top: 4rem;
 }
 .hobbies-background {
     padding: 100px 0 0;
 }
-.hobbies-background>.container>.row>.col-xs-12 col-sm-9 col-sm-offset-3>.resume-box {
-    padding: 40px;
+.hobbiesWrapper {
+    padding: 0;
 }
-
 .contact-background {
     padding: 100px 0 0;
 }
