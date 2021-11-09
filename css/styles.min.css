@@ -397,7 +397,7 @@ button.mfp-close:hover {
     padding: 0;
 }
 .resume-box {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .resume-box:last-child {
     margin: 0;
@@ -423,157 +423,20 @@ button.mfp-close:hover {
     font-weight: 500;
     padding-bottom: 5px;
 }
-.blog-background {
+.language-background {
     padding: 100px 0 0;
 }
-.blogWrapper {
-    padding: 0;
+
+.resume-box >.hobbies-box {
+    padding-top: 4rem;
 }
-.blog-img {
-    position: relative;
-}
-.post-ver-date {
-    bottom: 13px;
-    color: #fff;
-    left: 15px;
-    position: absolute;
-    z-index: 9999;
-}
-.blog-dis > h3 {
-    margin: 15px 0 9px;
-}
-.blog-post.row, .copyright .row {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
-}
-.blog-post {
-    margin-bottom: 50px;
-}
-.blog-post:last-child {
-    margin: 0;
-}
-.blog-post img {
-    width: 100%;
-}
-.blog-post h3 {
-    font-size: 20px;
-}
-.blog-post a {
-    margin-top: 25px;
-    transition: all 0.1s linear 0s;
-}
-.blog-post a:focus, .blog-post a:hover {
-    border-color: #141414;
-}
-.testimonial-background {
+.hobbies-background {
     padding: 100px 0 0;
 }
-.testimonialWrapper {
-    padding: 0;
+.hobbies-background>.container>.row>.col-xs-12 col-sm-9 col-sm-offset-3>.resume-box {
+    padding: 40px;
 }
 
-.testimonial-author {
-    margin: 0 0 20px;
-    overflow: hidden;
-    width: 100%;
-}
-.testimonial-content p {
-    font-style: italic;
-}
-.testimonial-content h4 {
-    margin: 10px 0 0;
-}
-.testimonial {
-    margin: 0 0 30px;
-    padding-right: 30px;
-}
-.testimonial .testimonial_photo {
-    border-radius: 50%;
-    float: left;
-    height: 70px;
-    margin: 0;
-    width: 70px;
-}
-.testimonial .testimonial_content {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(232, 232, 232);
-    border-radius: 23px;
-    padding: 13px 19px 15px 60px;
-    position: relative;
-}
-.testimonial .testimonial_content p {
-    margin: 9px 0;
-}
-.testimonial .testimonial_content_inner::before {
-    color: rgb(170, 170, 170);
-    content: "“";
-    font-size: 82px;
-    left: 21px;
-    position: absolute;
-    top: -12px;
-}
-.testimonial .testimonial_author {
-    padding: 22px 0 0 13px;
-}
-.testimonial h3.testimonial_name {
-    font-size: 22px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: 20px;
-    margin: 17px 0 0;
-}
-.testimonial .testimonial_position {
-    font-size: 11px;
-    margin: -1px 0 0;
-}
-.testimonial h3.testimonial_name, .testimonial .testimonial_position {
-    margin-left: 81px;
-}
-.testimonial .testimonial_content::after, .testimonial .testimonial_content::before {
-    border: medium solid rgba(0, 0, 0, 0);
-    content: " ";
-    height: 0;
-    pointer-events: none;
-    position: absolute;
-    top: 100%;
-    width: 0;
-}
-.testimonial .testimonial_content::after {
-    border-style: solid;
-    border-top: 8px solid rgb(255, 255, 255);
-    border-width: 8px;
-    content: "";
-    left: 37px;
-    position: absolute;
-}
-.testimonial .testimonial_content::before {
-    border-style: solid;
-    border-top: 10px solid rgb(232, 232, 232);
-    border-width: 10px;
-    content: "";
-    left: 35px;
-    position: absolute;
-}
-
-.submit-style, .testimonial-box .owl-theme .owl-nav {
-    margin-top: 30px;
-}
-.testimonial-content h4 span::before {
-    background: #d2d2d2 none repeat scroll 0 0;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 50%;
-    width: 10px;
-}
-.testimonial-box .owl-theme .owl-dots .owl-dot span {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 1px solid #141414;
-    margin: 0 7px;
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .submit-style {
-    background: #141414 none repeat scroll 0 0;
-}
 .contact-background {
     padding: 100px 0 0;
 }
@@ -743,12 +606,6 @@ textarea {
 .list-unstiled .fa-facebook {
     background: #2f5a9a none repeat scroll 0 0;
 }
-.list-unstiled .fa-twitter {
-    background: #3abdd1 none repeat scroll 0 0;
-}
-.list-unstiled .fa-google-plus {
-    background: #c63b1e none repeat scroll 0 0;
-}
 .list-unstiled .fa-linkedin {
     background: #097fc3 none repeat scroll 0 0;
 }
@@ -758,14 +615,8 @@ textarea {
 .list-unstiled .fa-skype {
     background: #00aff0 none repeat scroll 0 0;
 }
-.list-unstiled .fa-dribbble {
-    background: #e74d89 none repeat scroll 0 0;
-}
-.list-unstiled .fa-behance {
-    background: #006ffb none repeat scroll 0 0;
-}
-.list-unstiled .fa-pinterest {
-    background: #ca3737 none repeat scroll 0 0;
+.list-unstiled .fa-viber {
+    background: #8c17a0 none repeat scroll 0 0;
 }
 textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, .form-control[type="text"]:focus, .form-control[type="password"]:focus, .form-control[type="email"]:focus, .form-control[type="tel"]:focus, .form-control[contenteditable]:focus {
     box-shadow: 0 -2px 0 #8c17a0 inset;
